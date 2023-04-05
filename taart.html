@@ -10,22 +10,28 @@
     <body>
         <div class="header">
             <div class="left-header">
-                left
+                <a href="https://calandlyceum.nl/"><img class="header-logo" src="assets/caland_logo.jpg"></a>
             </div>
             <div class="middle-header">
-                <a href="/index.html"><p style="background-color: aqua;" id="black">Informatica Axel Koning</p></a>
+                <a href="index.html"><p>Informatica Axel Koning</p></a>
             </div>
             <div class="right-header">
-                <button class="about-me">OVER MIJ</button>
-                <button class="taart">TAART</button>
+                <script>
+                    function myFunction() {
+                        alert("Mijn naam is Axel en dit is mijn website.");
+                    }
+                </script>
+                <button class="about-me" onclick="myFunction()">OVER MIJ</button>
+                <a href="taart.html"><button class="taart">TAART</button></a>
             </div>
         </div>
 
-        <div class="page-title">
-            <p style="font-size: 40px;">Taarten</p>
-            <p>Toen onze geliefde docent Meneer van Hamersveld wegging besloten we een taart voor hem te bakken
-                om hem te bedanken voor wat hij voor ons gedaan heeft.
-            </p>
+        <div class="article-text">
+            <img class="article-foto" src="assets/taart_groepsfoto.jpg">
+            <P style="margin-top: 20px;">
+                Toen onze geliefde docent meneer van Hamersveld wegging besloten we informatica-taarten voor hem te bakken.
+            </P>
+        </div>
         </div>
         <div class="taart-grid">
             <div class="taart-box">
