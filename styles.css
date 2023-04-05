@@ -2,17 +2,23 @@ p {
     font-family: Roboto, Arial;
     margin-top: 0;
     margin-bottom: 0;
-}
-
-.black {
     color: black;
 }
+
+
 
 .thumbnail {
     width: 100%;
   
     
 }
+
+.header-logo {
+    width: 80%;
+    margin-left: 50px;
+    
+}
+
 a {
     text-decoration: none;
 }
@@ -169,3 +175,25 @@ body {
     padding: 5px;
 }
 
+
+.article-page {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.article-top {
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.article-text {
+    margin: auto;
+    width: 40%;
+    margin-bottom: 100px;
+}
+
+.article-foto {
+    width: 100%;
+
+}
